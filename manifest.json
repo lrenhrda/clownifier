@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Clownifier",
+  "version": "1.0",
+
+  "description": "Replaces 'cloud' with 'clown' in paragraphs.",
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["clownifier.js"]
+    }
+  ]
+}
